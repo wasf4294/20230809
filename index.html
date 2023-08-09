@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+<script>
+function get_numbers(){
+    return ['egoing', 'k8805', 'sorialgi'];
+}
+members = get_numbers();
+document.write(members[0]);
+
+
+// function get_members(){
+//     one = 1;
+//     two = 2;
+//     three = 3;
+//     return [one , two, three];
+// }
+// members = get_members();
+
+// document.write(members[0]);
+
+function number_one(arg){
+    for(i=arg; i<10; i++){
+            document.write(i);
+        }
+}
+function number_two(arg){
+    for(i=arg; i<10; i++){
+        document.write(i);
+    }
+}
+
+members = [number_one(), number_two()];
+
+members[number_one(1)];
+document.write('<br>');
+members[number_two(2)];
+
+
+
+
+
+
+</script>
+</body>
+</html>
